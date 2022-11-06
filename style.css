@@ -1,0 +1,66 @@
+*{
+    background-color: purple;
+    margin: 10px; padding: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+body{
+    margin-top: 25px;
+    height: 1500px;
+}
+
+h1{
+    background-color: rgb(14, 97, 3);
+    display: inline-block;
+    margin: 5px; padding: 5px;
+}
+
+marquee{
+    background-color: black;
+    padding: 0px;
+    position: fixed;
+    top: 0px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    transition: 0.5s;
+}
+
+.para{
+    color: aqua;
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.h1Class{
+    background-color: blue;
+    font-size: 2rem;
+}
+
+.myAud{
+    height: 50px;
+    width: 100px;
+    color: black;
+    font-weight: bold;
+    background-color: aqua;
+}
+
+.anim{
+    box-shadow: 0 15px 18px 0 burlywood;
+    opacity: 0.5;
+}
+
+#moverout{
+    height: 20px;
+    width: 120px;
+    padding: 40px;
+    background-color: rgb(224, 18, 18);
+    text-align: center;
+}
+#div{
+    height: 150px;
+    width: 200px;
+    background-color: rgb(224, 18, 18);
+    text-align: center;
+}
