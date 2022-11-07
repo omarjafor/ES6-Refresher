@@ -19,6 +19,8 @@ numMul2(5,6);
 
 import { hello } from "./sell.js";
 hello();
+import person from "./customer.js";
+console.log(person);
 
 // import {text, setText} from './myModule.js';
 // console.log(text);
