@@ -6,9 +6,9 @@ export function setText(txt){
 
 export {text as message}
 
-const person = {
+const person1 = {
     name : "Omarjaber",
     age : 28,
     mobile : "01829622667"
 }
-export default person;
+export default person1;

@@ -29,5 +29,5 @@ console.log(text);
 setText("Welcome Back by Jaberjabed");
 import {message} from './myModule.js';
 console.log(message);
-import person from './myModule.js';
-console.log(person);
+import person1 from './myModule.js';
+console.log(person1);
