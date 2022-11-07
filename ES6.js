@@ -17,6 +17,9 @@ numMul(5);
 const numMul2 = (num,num2) => console.log(num*num2);
 numMul2(5,6);
 
+import { hello } from "./sell.js";
+hello();
+
 // import {text, setText} from './myModule.js';
 // console.log(text);
 // setText("Good Bye From ES6");
