@@ -22,6 +22,10 @@ hello();
 import person from "./customer.js";
 console.log(person);
 
+import * as duble from "./sell.js";
+duble.hello();
+console.log(duble.data);
+
 import {text, setText} from './myModule.js';
 console.log(text);
 setText("Good Bye From ES6");
