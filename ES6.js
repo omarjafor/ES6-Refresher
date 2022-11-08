@@ -78,3 +78,7 @@ function hello1(...all){
     console.log(all);
 }
 hello1(1, 2, 3, 4, 5);
+
+let mobile = ["iPhone", "OnePlus", "Xiaomi", "Realme"];
+let [m1, m2, m3, m4] = mobile;
+console.log(m2);
