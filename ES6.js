@@ -40,7 +40,7 @@ class Customer{
     constructor(n){
         this.name = n;
     }
-
+    age = 25;
     buy(){
         console.log("Helloooooooo.......")
     }
