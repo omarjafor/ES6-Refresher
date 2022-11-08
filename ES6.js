@@ -45,5 +45,16 @@ class Customer{
         console.log("Helloooooooo.......")
     }
 }
+
+class GuestCustomer extends Customer{
+    hello(){
+        console.log("Hello");
+    }
+}
+
+let customer2 = new GuestCustomer("Jaberjabed");
+console.log(customer2);
+
 let customer1 = new Customer("Jaberjabed");
 console.log(customer1);
+customer1.buy();
