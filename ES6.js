@@ -35,3 +35,15 @@ import {message} from './myModule.js';
 console.log(message);
 import person1 from './myModule.js';
 console.log(person1);
+
+class Customer{
+    constructor(n){
+        this.name = n;
+    }
+
+    buy(){
+        console.log("Helloooooooo.......")
+    }
+}
+let customer1 = new Customer("Jaberjabed");
+console.log(customer1);
