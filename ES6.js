@@ -73,3 +73,8 @@ let newPerSon = {
     city : "Chittagong"
 }
 console.log(newPerSon);
+
+function hello1(...all){
+    console.log(all);
+}
+hello1(1, 2, 3, 4, 5);
