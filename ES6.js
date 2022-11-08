@@ -1,4 +1,4 @@
-// ES6 Refresher ----> Doing some practice again es6
+// ES6 Refresher - Doing some practice again es6
 let x = 5;
 let y = 6;
 console.log(x+y);
