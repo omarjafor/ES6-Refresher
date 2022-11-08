@@ -58,3 +58,18 @@ console.log(customer2);
 let customer1 = new Customer("Jaberjabed");
 console.log(customer1);
 customer1.buy();
+
+let list = ["iPhone", "OnePlus", "Xiaomi", "Realme"];
+let newList = ["Vivo", ...list];
+console.log(newList);
+
+let perSon = {
+    name : "jaberjabed",
+    age : 25
+}
+
+let newPerSon = {
+    ...perSon,
+    city : "Chittagong"
+}
+console.log(newPerSon);
