@@ -46,6 +46,12 @@ class Customer{
     }
 }
 
+// class GuestCustomer{
+//     hello(){
+//         console.log("Hello");
+//     }
+// }
+
 class GuestCustomer extends Customer{
     hello(){
         console.log("Hello");
