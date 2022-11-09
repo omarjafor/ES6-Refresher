@@ -90,3 +90,7 @@ let perSon2 = {
 let {name, age} = perSon2;
 console.log(name);
 console.log(age);
+
+let num1 = 100;
+let num2 = num1;
+console.log(num2);
