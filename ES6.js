@@ -107,7 +107,8 @@ console.log(ber);
 console.log(ber1);
 
 let array = [2, 3, 5, 7, 8, 10];
-let array1 = array.map(function(x){
-    return x*2;
-});
+let array1 = array.map(x => x*2);
 console.log(array1);
+
+let array2 = array.filter( x => x%2 == 0 );
+console.log(array2);
