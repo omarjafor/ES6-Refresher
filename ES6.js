@@ -82,3 +82,11 @@ hello1(1, 2, 3, 4, 5);
 let mobile = ["iPhone", "OnePlus", "Xiaomi", "Realme"];
 let [m1, m2, m3, m4] = mobile;
 console.log(m2);
+
+let perSon2 = {
+    name : "jaberjabed",
+    age : 25
+}
+let {name, age} = perSon2;
+console.log(name);
+console.log(age);
