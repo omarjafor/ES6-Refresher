@@ -99,5 +99,9 @@ let ber = {
     name : "jaberjabed",
     age : 25
 }
-let ber1 = ber;
+let ber1 = {
+    ...ber
+}
+ber1.name = "abidakhatun";
+console.log(ber);
 console.log(ber1);
