@@ -94,3 +94,10 @@ console.log(age);
 let num1 = 100;
 let num2 = num1;
 console.log(num2);
+
+let ber = {
+    name : "jaberjabed",
+    age : 25
+}
+let ber1 = ber;
+console.log(ber1);
