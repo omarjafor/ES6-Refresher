@@ -99,6 +99,7 @@ let ber = {
     name : "jaberjabed",
     age : 25
 }
+
 let ber1 = {
     ...ber
 }
