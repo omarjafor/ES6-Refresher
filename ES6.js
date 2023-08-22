@@ -6,13 +6,12 @@ const myName = "jaberjabed";
 console.log(myName);
 
 function num(num){
-    let num2 = num*2;
-    console.log(num2);
+    return num*2;
 }
-num(5);
+console.log(num(6));;
 
 const numMul = num => console.log(num*2);
-numMul(5);
+numMul(7);
 
 const numMul2 = (num,num2) => console.log(num*num2);
 numMul2(5,6);
