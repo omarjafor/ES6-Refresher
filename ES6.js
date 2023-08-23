@@ -1,5 +1,5 @@
 // ES6 Refresher - Doing some practice again es6
-let x = 5;
+/*let x = 5;
 let y = 5;
 console.log(x+y);
 const myName = "jaberjabed";
@@ -131,7 +131,7 @@ console.log(addab(50, 150));
 const nayikas = [1, 2, 3, 4, 5, 6];
 const arrays2 = [...nayikas];
 console.log(arrays2)
-
+*/
 const mobiles = {
     brand: 'Samsung',
     model:'S4'
@@ -165,3 +165,9 @@ console.log(products.data[1].price);
 const numbers = [2, 3, 4, 5, 6];
 const outputNum = numbers.map(n => n*3);
 console.log(outputNum); 
+
+const friends = ['Tom', 'Jane', 'Sine', 'Olive', 'Smith']
+const frndLength = friends.map(frnd => frnd.length)
+const frndLeter = friends.map(frnd => frnd[0])
+console.log(frndLength);
+console.log(frndLeter);
