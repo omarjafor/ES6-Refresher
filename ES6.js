@@ -105,3 +105,7 @@ let ber1 = {
 ber1.name = "abidakhatun";
 console.log(ber);
 console.log(ber1);
+
+let array = [2, 3, 5, 7, 8, 10];
+let array1 = array.map(x => x*2);
+console.log(array1);
