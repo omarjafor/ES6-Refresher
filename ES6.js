@@ -112,3 +112,6 @@ console.log(array1);
 
 let array2 = array.filter( x => x%2 == 0 );
 console.log(array2);
+
+const myFunc = () => console.log('Nayok');
+myFunc();
