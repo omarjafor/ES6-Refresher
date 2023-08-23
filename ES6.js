@@ -161,3 +161,7 @@ const products = {
     ]
 }
 console.log(products.data[1].price);
+
+const numbers = [2, 3, 4, 5, 6];
+const outputNum = numbers.map(n => n*3);
+console.log(outputNum); 
