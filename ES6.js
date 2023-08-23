@@ -116,6 +116,15 @@ console.log(array2);
 const myFunc = () => console.log('Nayok');
 myFunc();
 
+const allCalCulation = (a, b) => {
+    const add = a + b;
+    const sub = a -b;
+    const mul = a*b;
+    const div = a/b;
+    return add+sub+mul+div;
+}
+console.log(allCalCulation(500, 50));
+
 const addab = (a, b) => a + b;
 console.log(addab(50, 150));
 
