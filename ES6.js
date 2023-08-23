@@ -115,3 +115,7 @@ console.log(array2);
 
 const myFunc = () => console.log('Nayok');
 myFunc();
+
+const nayikas = [1, 2, 3, 4, 5, 6];
+const arrays2 = [...nayikas];
+console.log(arrays2)
