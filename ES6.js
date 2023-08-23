@@ -116,6 +116,9 @@ console.log(array2);
 const myFunc = () => console.log('Nayok');
 myFunc();
 
+const addab = (a, b) => a + b;
+console.log(addab(50, 150));
+
 const nayikas = [1, 2, 3, 4, 5, 6];
 const arrays2 = [...nayikas];
 console.log(arrays2)
@@ -135,5 +138,5 @@ console.log(obj);
 function addss(num1=10, num2=10){
     return num1+num2;
 }
-const add = addss();
+const add = `Sum of 5tk & 15tk is ${addss()} Taka ONly`;
 console.log(add);
