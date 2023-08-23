@@ -149,3 +149,15 @@ function addss(num1=10, num2=10){
 }
 const add = `Sum of 5tk & 15tk is ${addss()} Taka ONly`;
 console.log(add);
+
+const data = [{id: 1, name: 'Omar jafor', address: 'kala gajir bari'}];
+console.log(data[0].name);
+
+const products = {
+    count:500,
+    data: [
+        {id:1, name:'sony experia', price: 20000},
+        {id:2, name:'Vivo supersonic', price: 25000}
+    ]
+}
+console.log(products.data[1].price);
