@@ -7,7 +7,7 @@ export function setText(txt){
 export {text as message}
 
 const person1 = {
-    name : "Omarjaber",
+    name : "Omar jafor chy",
     age : 28,
     mobile : "01829622667"
 }

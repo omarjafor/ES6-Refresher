@@ -1,5 +1,5 @@
 export const hello = () => {
-    console.log("Hello This is from sell js file");
+    console.log("Yessssssss This is from sell js file");
 }
 
-export let data = 10;
+export let data = 100;

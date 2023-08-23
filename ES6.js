@@ -131,3 +131,9 @@ console.log(mobiles);
 const obj = { foo: 1 };
 obj.bar = 2;
 console.log(obj);
+
+function addss(num1=10, num2=10){
+    return num1+num2;
+}
+const add = addss();
+console.log(add);
