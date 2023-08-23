@@ -119,3 +119,11 @@ myFunc();
 const nayikas = [1, 2, 3, 4, 5, 6];
 const arrays2 = [...nayikas];
 console.log(arrays2)
+
+const mobiles = {
+    brand: 'Samsung',
+    model:'S4'
+   };
+
+delete mobiles.brand;
+console.log(mobiles);
