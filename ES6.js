@@ -264,3 +264,12 @@ const frnd = names => {
     return names.filter(name => name.length % 2 === 0);
 }
 console.log(frnd(friends));
+// Problem No: 05
+const num4 = [2, 3, 4];
+
+const calculationFunc = numbers => {
+    const square = numbers.map(num => num*num);
+    const sum = square.reduce((a,b)=>a+b,0);
+    return sum / square.length;
+}
+calculationFunc(num4);
