@@ -227,3 +227,23 @@ console.log(restPro);
 actor.movie = 'sadaSada';
 Object.seal(actor);
 console.log(actor);
+
+// For of, For in....................
+const num4 = [1, 2, 3, 4, 5, 6, 7, 8];
+for(let num of num4){
+    // console.log(num);
+}
+const nobab = 'Nobab Shirajudula Bangla Nobab';
+for(let char of nobab){
+    // console.log(char);
+}
+for(let keys in actor){
+    const value = actor[keys];
+    console.log(keys, value);
+}
+for(let key of keys){
+    console.log(key);
+}
+for(let value of values){
+    console.log(value);
+}
