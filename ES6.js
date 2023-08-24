@@ -250,3 +250,17 @@ for(let value of values){
 // Problem No: 01
 const multiple = (a, b, c) => a*b*c;
 console.log(multiple(2, 3, 5));
+// Problem No: 02
+const threeLine = `I am a web developer.
+I love to code.
+I love to eat biryani`
+console.log(threeLine);
+// Problem No: 03
+const addTwoNum = (a, b=5) => a + b;
+console.log(addTwoNum(10,20));
+// Problem No: 04
+const friends = ['Toms', 'Janes', 'Sine', 'Olives', 'Smith']
+const frnd = names => {
+    return names.filter(name => name.length % 2 === 0);
+}
+console.log(frnd(friends));
