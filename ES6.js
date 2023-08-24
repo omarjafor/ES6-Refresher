@@ -273,3 +273,12 @@ const calculationFunc = numbers => {
     return sum / square.length;
 }
 calculationFunc(num4);
+// Problem No: 06
+const abc1 = [2, 3, 4];
+const abc2 = [5, 6, 7];
+
+const margeTwo = (array1, array2) => {
+    const array = [...array1, ...array2]
+    return Math.max(...array);
+}
+margeTwo(abc1, abc2)
