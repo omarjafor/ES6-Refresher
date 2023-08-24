@@ -161,7 +161,7 @@ const products = {
     ]
 }
 console.log(products.data[1].price);
-*/
+
 const numbers = [2, 3, 4, 5, 6];
 const outputNum = numbers.map(n => n*3);
 console.log(outputNum); 
@@ -187,13 +187,14 @@ num5.push(9, 10);
 num6.push(11, 12);
 console.log(num5)
 console.log(num6)
-
+*/
 // object or array destructuring.....................
 const actor = {
     name: 'omarjafor',
     age: 30,
     phone: '01829622667',
-    money: 1005000
+    money: 1005000,
+    isClean: true
 }
 const {name, age, phone, money} = actor;
 console.log(name);
@@ -209,3 +210,15 @@ console.log(a, b);
 const doubeIt = (a, b) => [a*2, b*2];
 const [first, secound] = doubeIt(60, 80);
 console.log(first, secound);
+
+//Keys, values, entries, delete, seal, freeze
+const keys = Object.keys(actor);
+const values = Object.values(actor);
+const entries = Object.entries(actor);
+console.log(keys);
+console.log(values);
+console.log(entries);
+// delete actor.phone;
+// console.log(actor);
+const {isClean, ...restPro} = actor;
+console.log(restPro);
