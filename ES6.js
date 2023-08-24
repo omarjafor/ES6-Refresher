@@ -187,7 +187,7 @@ num5.push(9, 10);
 num6.push(11, 12);
 console.log(num5)
 console.log(num6)
-*/
+
 // object or array destructuring.....................
 const actor = {
     name: 'omarjafor',
@@ -246,4 +246,7 @@ for(let key of keys){
 }
 for(let value of values){
     console.log(value);
-}
+}*/
+// Problem No: 01
+const multiple = (a, b, c) => a*b*c;
+console.log(multiple(2, 3, 5));
