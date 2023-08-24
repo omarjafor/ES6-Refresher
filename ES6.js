@@ -131,7 +131,7 @@ console.log(addab(50, 150));
 const nayikas = [1, 2, 3, 4, 5, 6];
 const arrays2 = [...nayikas];
 console.log(arrays2)
-*/
+
 const mobiles = {
     brand: 'Samsung',
     model:'S4'
@@ -161,7 +161,7 @@ const products = {
     ]
 }
 console.log(products.data[1].price);
-
+*/
 const numbers = [2, 3, 4, 5, 6];
 const outputNum = numbers.map(n => n*3);
 console.log(outputNum); 
@@ -171,7 +171,7 @@ const frndLength = friends.map(frnd => frnd.length)
 const frndLeter = friends.map(frnd => frnd[0])
 console.log(frndLength);
 console.log(frndLeter);
-
+// Spread operator
 const max = Math.max(5, 45, 48, 67, 10, 98, 14);
 const num3 = [50, 45, 408, 67, 10, 98, 14];
 const num4 = [1, 2, 3, 4, 5, 6, 7, 8];
@@ -182,9 +182,21 @@ console.log(arrayMax);
 const num5 = [5, 6, 7, 8]
 // const num6 = num5
 // num5.push(9, 10);
-const num6 = [...num5, 13, 14]
+const num6 = [ 13, 14, ...num5]
 num5.push(9, 10);
 num6.push(11, 12);
 console.log(num5)
 console.log(num6)
 
+// object or array destructuring.....................
+const actor = {
+    name: 'omarjafor',
+    age: 30,
+    phone: '01829622667',
+    money: 1005000
+}
+const {name, age, phone, money} = actor;
+console.log(name);
+console.log(age);
+console.log(phone);
+console.log(money);
