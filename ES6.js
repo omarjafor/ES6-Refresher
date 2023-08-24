@@ -178,3 +178,13 @@ const num4 = [1, 2, 3, 4, 5, 6, 7, 8];
 console.log(max);
 const arrayMax = Math.max(...num3);
 console.log(arrayMax);
+
+const num5 = [5, 6, 7, 8]
+// const num6 = num5
+// num5.push(9, 10);
+const num6 = [...num5, 13, 14]
+num5.push(9, 10);
+num6.push(11, 12);
+console.log(num5)
+console.log(num6)
+
