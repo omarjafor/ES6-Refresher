@@ -222,3 +222,8 @@ console.log(entries);
 // console.log(actor);
 const {isClean, ...restPro} = actor;
 console.log(restPro);
+// Object.freeze(actor)
+// console.log(actor);
+actor.movie = 'sadaSada';
+Object.seal(actor);
+console.log(actor);
