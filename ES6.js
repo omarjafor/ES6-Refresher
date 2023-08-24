@@ -200,3 +200,12 @@ console.log(name);
 console.log(age);
 console.log(phone);
 console.log(money);
+const twoNumber = [10, 20]
+const [x, y] = twoNumber;
+console.log(x, y);
+const [a, b] = [x, y];
+console.log(a, b);
+
+const doubeIt = (a, b) => [a*2, b*2];
+const [first, secound] = doubeIt(60, 80);
+console.log(first, secound);
