@@ -171,3 +171,10 @@ const frndLength = friends.map(frnd => frnd.length)
 const frndLeter = friends.map(frnd => frnd[0])
 console.log(frndLength);
 console.log(frndLeter);
+
+const max = Math.max(5, 45, 48, 67, 10, 98, 14);
+const num3 = [50, 45, 408, 67, 10, 98, 14];
+const num4 = [1, 2, 3, 4, 5, 6, 7, 8];
+console.log(max);
+const arrayMax = Math.max(...num3);
+console.log(arrayMax);
