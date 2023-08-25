@@ -351,6 +351,7 @@ const products = {
     ]
 }
 console.log(products.data[1].price);
+//Optional Chaining............................
 const user2 = {
     id: 502,
     name: 'Hablu Programmer',
@@ -359,4 +360,20 @@ const user2 = {
         country: 'Bangladesh'
     }
 }
-console.log(user2.address.street.secound);
+console.log(user2.address.street?.secound);
+//Map
+const number2 = [12, 15, 45, 50, 60];
+const doubled = [];
+for(const num of number2){
+    const double = num*2;
+    doubled.push(double);
+}
+console.log(doubled);
+function doubleIt(num){
+    return num*2;
+}
+
+const result = number2.map(doubleIt);
+const result2 = number2.map(x => x*2);
+console.log(result);
+console.log(result2);
