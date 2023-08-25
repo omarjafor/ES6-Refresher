@@ -372,8 +372,16 @@ console.log(doubled);
 function doubleIt(num){
     return num*2;
 }
-
 const result = number2.map(doubleIt);
 const result2 = number2.map(x => x*2);
 console.log(result);
 console.log(result2);
+const reslt = numbers.map(n=>n*2);
+console.log(reslt);
+const reslts = numbers.map(n => n + 5);
+console.log(reslts);
+const friends = ['Tom', 'Jane', 'Sine', 'Olive', 'Smith']
+const frndLength = friends.map(num => num.length);
+const frndLeter = friends.map(first => first[0]);
+console.log(frndLength);
+console.log(frndLeter);
