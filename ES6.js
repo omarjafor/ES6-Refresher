@@ -302,3 +302,8 @@ console.log(output);
 const friendss = ["Moushumi", "Misha", "Manna", "mimi" , "mahiya"];
 const newFrnd = friendss.filter(friend=>friend.length==5);
 console.log(newFrnd);
+
+let p = 'Javascript';
+let q = p;
+p = 'React';
+console.log(q);
