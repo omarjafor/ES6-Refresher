@@ -331,7 +331,7 @@ function work(x, y = 4) {
 }
 console.log(work(32));
 console.log(!isTrue ? "hello" : "world")
-*/
+
 const a = 56;
 const numbers = [15, 12, 18]
 const person = {
@@ -385,3 +385,29 @@ const frndLength = friends.map(num => num.length);
 const frndLeter = friends.map(first => first[0]);
 console.log(frndLength);
 console.log(frndLeter);
+//For Each forEach
+const number2 = [2, 3, 4, 5, 6];
+const reslt = number2.forEach(num => console.log(num*2));
+console.log(reslt);
+let sum = 0
+number2.forEach(n => {
+    sum = sum + n*2;
+})
+console.log(sum);
+// Filter 
+const number2 = [21, 30, 45, 55, 60];
+const reslt = number2.filter(p => p>=40);
+console.log(reslt);
+const reslts = number2.filter(p => p%2===0);
+console.log(reslts);
+const friends = ['Tom', 'Jane', 'Sine', 'Olive', 'Smith'];
+const frnd = friends.filter(frnd => frnd.length % 2 === 1);
+console.log(frnd);
+*/
+// Find
+const number2 = [21, 30, 45, 55, 60];
+const reslts = number2.find(p => p % 2 === 0);
+console.log(reslts);
+const friends = ['Tom', 'Jane', 'Sine', 'Olive', 'Smith'];
+const frnd = friends.find(frnd => frnd.length % 2 === 1);
+console.log(frnd);
