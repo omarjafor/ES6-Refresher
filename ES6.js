@@ -337,3 +337,17 @@ const numbers = [15, 12, 18]
 const person = {
     name: 'Shakib Khan'}
 console.log(`Hi my name is ${person.name}, My Run is ${a} My Numbers is ${numbers}`);
+
+const square = x => x*x;
+const sum = (a, b) => a+b;
+//Object and array destructuring..............
+const {x, y, z} = {x:1, y:2, Z:3};
+const [xx, yy, zz] = [1, 2, 3]
+const products = {
+    count : 5000,
+    data: [
+        {id:1, name:'Dell', price:65000},
+        {id:2, name:'Realme', price:165000},
+    ]
+}
+console.log(products.data[1].price);
