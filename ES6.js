@@ -326,3 +326,9 @@ if ("2" === 2) {
 } else {
     console.log("Inside else");
 }
+
+function work(x, y = 4) {
+    return x + y;
+}
+console.log(work(32));
+console.log(!isTrue ? "hello" : "world")
