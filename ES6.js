@@ -351,3 +351,12 @@ const products = {
     ]
 }
 console.log(products.data[1].price);
+const user2 = {
+    id: 502,
+    name: 'Hablu Programmer',
+    address: {
+        city:'chittagong',
+        country: 'Bangladesh'
+    }
+}
+console.log(user2.address.street.secound);
