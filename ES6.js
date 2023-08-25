@@ -302,3 +302,33 @@ console.log(output);
 const friendss = ["Moushumi", "Misha", "Manna", "mimi" , "mahiya"];
 const newFrnd = friendss.filter(friend=>friend.length==5);
 console.log(newFrnd);
+
+let p = 'Javascript';
+let q = p;
+p = 'React';
+console.log(q);
+// let isTrue = true;
+console.log(!isTrue ? "hello" : "world");
+if(!isTrue){
+    console.log('hello');
+}else{
+    console.log('world');
+}
+
+const sum = (p, q) => {
+    p + q;
+}
+const result = sum(2, 3);
+console.log(result)
+
+if ("2" === 2) {
+    console.log("Inside if");
+} else {
+    console.log("Inside else");
+}
+
+function work(x, y = 4) {
+    return x + y;
+}
+console.log(work(32));
+console.log(!isTrue ? "hello" : "world")
