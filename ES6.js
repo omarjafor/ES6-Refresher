@@ -403,7 +403,7 @@ console.log(reslts);
 const friends = ['Tom', 'Jane', 'Sine', 'Olive', 'Smith'];
 const frnd = friends.filter(frnd => frnd.length % 2 === 1);
 console.log(frnd);
-*/
+
 // Find
 const number2 = [21, 30, 45, 55, 60];
 const reslts = number2.find(p => p % 2 === 0);
@@ -411,3 +411,20 @@ console.log(reslts);
 const friends = ['Tom', 'Jane', 'Sine', 'Olive', 'Smith'];
 const frnd = friends.find(frnd => frnd.length % 2 === 1);
 console.log(frnd);
+*/
+// Reduce
+const number2 = [20, 30, 4, 5, 6, 7, 8];
+const sum = number2.reduce((prv, cur) => prv + cur, 0);
+console.log(sum);
+
+// Array of Objects
+const products = [
+    { id: 1, name: 'Sony', price: 20000 },
+    { id: 2, name: 'Vivo', price: 25000 },
+    { id: 3, name: 'Nokia', price: 35000 },
+    { id: 4, name: 'iPhone', price: 140000 },
+    { id: 5, name: 'OnePlus', price: 50000 },
+]
+// map
+const name = products.map( p => p.name);
+console.log(name);
