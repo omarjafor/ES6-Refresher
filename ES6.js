@@ -246,7 +246,7 @@ for(let key of keys){
 }
 for(let value of values){
     console.log(value);
-}*/
+}
 // Problem No: 01
 const multiple = (a, b, c) => a*b*c;
 console.log(multiple(2, 3, 5));
@@ -314,7 +314,6 @@ if(!isTrue){
 }else{
     console.log('world');
 }
-
 const sum = (p, q) => {
     p + q;
 }
@@ -332,3 +331,9 @@ function work(x, y = 4) {
 }
 console.log(work(32));
 console.log(!isTrue ? "hello" : "world")
+*/
+const a = 56;
+const numbers = [15, 12, 18]
+const person = {
+    name: 'Shakib Khan'}
+console.log(`Hi my name is ${person.name}, My Run is ${a} My Numbers is ${numbers}`);
