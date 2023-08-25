@@ -307,7 +307,7 @@ let p = 'Javascript';
 let q = p;
 p = 'React';
 console.log(q);
-// let isTrue = true;
+let isTrue = true;
 console.log(!isTrue ? "hello" : "world");
 if(!isTrue){
     console.log('hello');
