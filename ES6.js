@@ -477,3 +477,6 @@ class Bus extends Vehicle{
         this.ticket = ticket;
     }
 }
+const mahindra = new Bus('Mahindra', 1500000, 4, 100);
+console.log(mahindra);
+mahindra.move();
