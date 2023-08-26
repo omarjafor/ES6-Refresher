@@ -460,3 +460,20 @@ class Product{
 }
 const phone1 = new Product(1, 'Sony', 18000);
 console.log(phone1.price);
+// inheritance prototypical inheritance
+class Vehicle{
+    constructor(name, price){
+        this.name = name;
+        this.price = price;
+    }
+    move(){
+        console.log('This vehicle is now in chittagong')
+    }
+}
+class Bus extends Vehicle{
+    constructor(name, price, seat, ticket){
+        super(name, price);
+        this.seat = seat;
+        this.ticket = ticket;
+    }
+}
