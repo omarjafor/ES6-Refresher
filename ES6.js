@@ -467,7 +467,7 @@ class Vehicle{
         this.price = price;
     }
     move(){
-        console.log('This vehicle is now in chittagong')
+        console.log(`This ${this.name} vehicle is now in chittagong, price is ${this.price}`)
     }
 }
 class Bus extends Vehicle{
