@@ -587,3 +587,15 @@ const instructor = [
 ]
 const seniorIns = instructor.filter(i => i.position === 'Senior');
 console.log(seniorIns);
+// Task - 7
+const people = [
+    { name: 'Mina', age: 20,},
+    { name: 'Rina', age: 15,},
+    { name: 'Suchorita', age: 22,}
+]
+let sum = 0;
+for(let i=0; i<people.length; i++){
+    const age = people[i].age;
+    sum = sum + age;
+}
+console.log(sum);
