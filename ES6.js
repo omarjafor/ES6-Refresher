@@ -563,6 +563,7 @@ let data2 = {
 console.log(data2.data[0].bookDetails.name);
 console.log(data2.data[1].bookCategory);
 */
+//Task - 4
 const number = [1, 3, 5, 7, 9];
 const newArray = [];
 for(let i=0; i<number.length; i++){
@@ -570,3 +571,11 @@ for(let i=0; i<number.length; i++){
     newArray.push(newNum+1);
 }
 console.log(newArray);
+const newArray2 = number.map(n => n+1);
+console.log(newArray2);
+// Task - 5
+const givenNum = [33, 50, 79, 78, 90, 101, 30];
+const newNum = givenNum.filter( n => n%10 === 0);
+const newNum2 = givenNum.find( n => n%10 === 0);
+console.log(newNum);
+console.log(newNum2);
