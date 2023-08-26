@@ -565,12 +565,12 @@ console.log(data2.data[1].bookCategory);
 */
 //Task - 4
 const number = [1, 3, 5, 7, 9];
-const newArray = [];
-for(let i=0; i<number.length; i++){
-    const newNum = number[i];
-    newArray.push(newNum+1);
-}
-console.log(newArray);
+// const newArray = [];
+// for(let i=0; i<number.length; i++){
+//     const newNum = number[i];
+//     newArray.push(newNum+1);
+// }
+// console.log(newArray);
 const newArray2 = number.map(n => n+1);
 console.log(newArray2);
 // Task - 5
@@ -593,11 +593,11 @@ const people = [
     { name: 'Rina', age: 15,},
     { name: 'Suchorita', age: 22,}
 ]
-let sum = 0;
-for(let i=0; i<people.length; i++){
-    const age = people[i].age;
-    sum = sum + age;
-}
-console.log(sum);
+// let sum = 0;
+// for(let i=0; i<people.length; i++){
+//     const age = people[i].age;
+//     sum = sum + age;
+// }
+// console.log(sum);
 const sum2 = people.reduce( (p, a) => p + a.age , 0);
 console.log(sum2);
