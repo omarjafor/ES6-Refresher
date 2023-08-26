@@ -441,7 +441,6 @@ console.log(highPrice);
 // reduce
 const total = products.reduce( (total, current) => total + current.price, 0);
 console.log(total);
-*/
 // Class and objects
 const products = [
     { id: 1, name: 'Sony', price: 20000 },
@@ -484,3 +483,6 @@ const mahindra = new Bus('Mahindra', 1500000, 4, 100);
 console.log(mahindra);
 mahindra.move();
 mahindra.activity();
+console.log(mahindra['name']);
+console.log(mahindra['price']);
+*/
