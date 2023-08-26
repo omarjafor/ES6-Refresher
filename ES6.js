@@ -579,3 +579,11 @@ const newNum = givenNum.filter( n => n%10 === 0);
 const newNum2 = givenNum.find( n => n%10 === 0);
 console.log(newNum);
 console.log(newNum2);
+// Task - 6
+const instructor = [
+    {name:'Nodi', age: 28, position:'Senior'},
+    {name:'Akil', age: 26, position:'Junior'},
+    {name:'Shobuj', age: 30, position:'Senior'}
+]
+const seniorIns = instructor.filter(i => i.position === 'Senior');
+console.log(seniorIns);
