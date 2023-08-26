@@ -599,3 +599,5 @@ for(let i=0; i<people.length; i++){
     sum = sum + age;
 }
 console.log(sum);
+const sum2 = people.reduce( (p, a) => p + a.age , 0);
+console.log(sum2);
