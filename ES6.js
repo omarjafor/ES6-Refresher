@@ -411,7 +411,6 @@ console.log(reslts);
 const friends = ['Tom', 'Jane', 'Sine', 'Olive', 'Smith'];
 const frnd = friends.find(frnd => frnd.length % 2 === 1);
 console.log(frnd);
-*/
 // Reduce
 const number2 = [20, 30, 4, 5, 6, 7, 8];
 const sum = number2.reduce((prv, cur) => prv + cur, 0);
@@ -427,4 +426,37 @@ const products = [
 ]
 // map
 const name = products.map( p => p.name);
+const price = products.map( p => p.price);
 console.log(name);
+console.log(price);
+// for each ForEach
+products.forEach( p => console.log(p.id));
+products.forEach( p => console.log(p.name));
+// filter
+const lowPrice = products.filter(p => p.price < 50000);
+console.log(lowPrice);
+// find 
+const highPrice = products.find(p => p.price > 50000);
+console.log(highPrice);
+// reduce
+const total = products.reduce( (total, current) => total + current.price, 0);
+console.log(total);
+*/
+// Class and objects
+const products = [
+    { id: 1, name: 'Sony', price: 20000 },
+    { id: 2, name: 'Vivo', price: 25000 },
+    { id: 3, name: 'Nokia', price: 35000 },
+    { id: 4, name: 'iPhone', price: 140000 },
+    { id: 5, name: 'OnePlus', price: 50000 },
+]
+
+class Product{
+    constructor(id, name, price){
+        this.id = id;
+        this.name = name;
+        this.price = price;
+    }
+}
+const phone1 = new Product(1, 'Sony', 18000);
+console.log(phone1.price);
