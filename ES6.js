@@ -469,6 +469,9 @@ class Vehicle{
     move(){
         console.log(`This ${this.name} vehicle is now in chittagong, price is ${this.price}`)
     }
+    activity(){
+        this.move();
+    }
 }
 class Bus extends Vehicle{
     constructor(name, price, seat, ticket){
@@ -480,3 +483,4 @@ class Bus extends Vehicle{
 const mahindra = new Bus('Mahindra', 1500000, 4, 100);
 console.log(mahindra);
 mahindra.move();
+mahindra.activity();
