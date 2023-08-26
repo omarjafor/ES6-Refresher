@@ -485,7 +485,6 @@ mahindra.move();
 mahindra.activity();
 console.log(mahindra['name']);
 console.log(mahindra['price']);
-*/
 // task -1: console log the secondary school location of Sophia 
 let data = {
     Sophia: {
@@ -563,3 +562,11 @@ let data2 = {
 }
 console.log(data2.data[0].bookDetails.name);
 console.log(data2.data[1].bookCategory);
+*/
+const number = [1, 3, 5, 7, 9];
+const newArray = [];
+for(let i=0; i<number.length; i++){
+    const newNum = number[i];
+    newArray.push(newNum+1);
+}
+console.log(newArray);
