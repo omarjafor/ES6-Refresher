@@ -12,11 +12,6 @@ const stringyfy = JSON.stringify(people);
 //     .then(response => response.json())
 //     .then(json => console.log(json))
 
-// const url = 'https://jsonplaceholder.typicode.com/todos/1';
-// fetch('https://jsonplaceholder.typicode.com/todos/1')
-// .then(response => response.JSON)
-// .then(json => console.log(json))
-
 function loadData(){
     fetch('https://jsonplaceholder.typicode.com/todos/1')
         .then(response => response.json())
