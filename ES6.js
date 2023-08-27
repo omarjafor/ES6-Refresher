@@ -601,3 +601,6 @@ const people = [
 // console.log(sum);
 const sum2 = people.reduce( (p, a) => p + a.age , 0);
 console.log(sum2);
+
+const stuInfo = JSON.stringify({ name: "James", roll: 3 });
+console.log(stuInfo.name);
