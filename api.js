@@ -41,7 +41,11 @@ function loadUsers2() {
 }
 
 function displayUsers2(datas) {
+    const ul = document.getElementById('user-list');
     for(const data of datas){
         console.log(data.username)
+        const li = document.createElement('li');
+        li.innerText = data.username
+        ul.appendChild(li);
     }
 }
