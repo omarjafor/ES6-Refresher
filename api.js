@@ -5,6 +5,9 @@ const people = [
     { name: 'Suchorita', age: 22, }
 ]
 const stringyfy = JSON.stringify(people);
-const givenNum = [33, 50, 79, 78, 90, 101, 30];
 console.log(people);
 console.log(stringyfy);
+
+fetch('https://jsonplaceholder.typicode.com/todos/1')
+    .then(response => response.json())
+    .then(json => console.log(json))
