@@ -58,15 +58,19 @@ function loadPosts() {
 
 function displayPost(datas) {
     const postcontainer = document.getElementById('posts-container');
+    let i = 0;
     for (const post of datas) {
-        const div = document.createElement('div');
-        div.classList.add('post');
-        div.innerHTML = `
+        while(i<10){
+            const div = document.createElement('div');
+            div.classList.add('post');
+            div.innerHTML = `
             <h4>User: ${post.userId} </h4>
             <h5>Post: ${post.title} </h5>
             <p>Post Description: ${post.body} </p>
         `;
-        postcontainer.appendChild(div);
+            postcontainer.appendChild(div);
+            i++
+        }
     }
 }
 loadPosts()
