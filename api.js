@@ -69,3 +69,4 @@ function displayPost(datas) {
         postcontainer.appendChild(div);
     }
 }
+loadPosts()
