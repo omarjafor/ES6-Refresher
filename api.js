@@ -74,3 +74,28 @@ function displayPost(datas) {
     }
 }
 loadPosts()
+
+function loadTodos() {
+    fetch('https://jsonplaceholder.typicode.com/todos')
+        .then(res => res.json())
+        .then(data => displayTodos(data))
+}
+
+function displayTodos(datas) {
+    const postcontainer = document.getElementById('todos-container');
+    let i = 0;
+    for (const post of datas) {
+        while (i < 10) {
+            const div = document.createElement('div');
+            div.classList.add('post');
+            div.innerHTML = `
+            <h4>User: ${post.userId} </h4>
+            <h5>Post: ${post.title} </h5>
+            <p>Post Description: ${post.body} </p>
+        `;
+            postcontainer.appendChild(div);
+            i++
+        }
+    }
+}
+loadTodos()
