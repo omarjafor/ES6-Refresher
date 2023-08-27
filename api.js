@@ -33,3 +33,15 @@ function loadUsers(){
 function displayUsers(datas){
     console.log(datas);
 }
+
+function loadUsers2() {
+    fetch('https://jsonplaceholder.typicode.com/users')
+        .then(res => res.json())
+        .then(data => displayUsers2(data))
+}
+
+function displayUsers2(datas) {
+    for(const data of datas){
+        console.log(data.username)
+    }
+}
