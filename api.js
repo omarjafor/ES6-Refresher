@@ -122,3 +122,9 @@ const dreamGirl = [
     },
 ];
 console.log(dreamGirl[0].sokina.contactInfo[1].instagram)
+
+const phones = [
+    { name: "sony", price: 500 },
+    { name: "apple", price: 700 },
+    { name: "sony", price: 700 },
+];
