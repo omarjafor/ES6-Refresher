@@ -121,3 +121,4 @@ const dreamGirl = [
         },
     },
 ];
+console.log(dreamGirl[0].sokina.contactInfo[1].instagram)
