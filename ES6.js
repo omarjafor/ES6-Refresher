@@ -622,7 +622,9 @@ const taskOne = () =>{
     console.log('Task 1');
 }
 const taskTwo = () =>{
-    console.log('Task 2');
+    setTimeout(() => {
+        console.log('Task 2, Data Loading');
+    } , 3000);
 }
 const taskThree = () =>{
     console.log('Task 3');
@@ -633,3 +635,9 @@ const taskFour = () =>{
 const taskFive = () =>{
     console.log('Task 5');
 }
+
+taskOne();
+taskTwo();
+taskThree();
+taskFour();
+taskFive();
