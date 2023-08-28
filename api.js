@@ -128,3 +128,6 @@ const phones = [
     { name: "apple", price: 700 },
     { name: "sony", price: 700 },
 ];
+
+const phoness = phones.filter(p => p.price != 500);
+console.log(phoness);
