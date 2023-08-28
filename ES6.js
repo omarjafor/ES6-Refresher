@@ -572,13 +572,13 @@ const number = [1, 3, 5, 7, 9];
 // }
 // console.log(newArray);
 const newArray2 = number.map(n => n+1);
-console.log(newArray2);
+// console.log(newArray2);
 // Task - 5
 const givenNum = [33, 50, 79, 78, 90, 101, 30];
 const newNum = givenNum.filter( n => n%10 === 0);
 const newNum2 = givenNum.find( n => n%10 === 0);
-console.log(newNum);
-console.log(newNum2);
+// console.log(newNum);
+// console.log(newNum2);
 // Task - 6
 const instructor = [
     {name:'Nodi', age: 28, position:'Senior'},
@@ -586,7 +586,7 @@ const instructor = [
     {name:'Shobuj', age: 30, position:'Senior'}
 ]
 const seniorIns = instructor.filter(i => i.position === 'Senior');
-console.log(seniorIns);
+// console.log(seniorIns);
 // Task - 7
 const people = [
     { name: 'Mina', age: 20,},
@@ -599,8 +599,15 @@ const people = [
 //     sum = sum + age;
 // }
 // console.log(sum);
-const sum2 = people.reduce( (p, a) => p + a.age , 0);
-console.log(sum2);
+// const sum2 = people.reduce( (p, a) => p + a.age , 0);
+// console.log(sum2);
 
-const stuInfo = JSON.stringify({ name: "James", roll: 3 });
-console.log(stuInfo.name);
+// const stuInfo = JSON.stringify({ name: "James", roll: 3 });
+// console.log(stuInfo.name);
+
+// Call back and higher order function
+function square(x){
+    console.log(`Square of ${x} : ${x*x}`);
+}
+const y = square;
+y(5);
