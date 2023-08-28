@@ -571,27 +571,27 @@ const number = [1, 3, 5, 7, 9];
 //     newArray.push(newNum+1);
 // }
 // console.log(newArray);
-const newArray2 = number.map(n => n+1);
+const newArray2 = number.map(n => n + 1);
 // console.log(newArray2);
 // Task - 5
 const givenNum = [33, 50, 79, 78, 90, 101, 30];
-const newNum = givenNum.filter( n => n%10 === 0);
-const newNum2 = givenNum.find( n => n%10 === 0);
+const newNum = givenNum.filter(n => n % 10 === 0);
+const newNum2 = givenNum.find(n => n % 10 === 0);
 // console.log(newNum);
 // console.log(newNum2);
 // Task - 6
 const instructor = [
-    {name:'Nodi', age: 28, position:'Senior'},
-    {name:'Akil', age: 26, position:'Junior'},
-    {name:'Shobuj', age: 30, position:'Senior'}
+    { name: 'Nodi', age: 28, position: 'Senior' },
+    { name: 'Akil', age: 26, position: 'Junior' },
+    { name: 'Shobuj', age: 30, position: 'Senior' }
 ]
 const seniorIns = instructor.filter(i => i.position === 'Senior');
 // console.log(seniorIns);
 // Task - 7
 const people = [
-    { name: 'Mina', age: 20,},
-    { name: 'Rina', age: 15,},
-    { name: 'Suchorita', age: 22,}
+    { name: 'Mina', age: 20, },
+    { name: 'Rina', age: 15, },
+    { name: 'Suchorita', age: 22, }
 ]
 // let sum = 0;
 // for(let i=0; i<people.length; i++){
@@ -605,39 +605,49 @@ const people = [
 // const stuInfo = JSON.stringify({ name: "James", roll: 3 });
 // console.log(stuInfo.name);
 
-// Call back and higher order function
-function square(x){
-    console.log(`Square of ${x} : ${x*x}`);
+// Call back and higher order function............................................
+function square(x) {
+    console.log(`Square of ${x} : ${x * x}`);
 }
 const y = square;
 y(5);
 
-function higherOrderFunction(num, callback){
+function higherOrderFunction(num, callback) {
     callback(num)
 }
 
 higherOrderFunction(6, y)
 
-const taskOne = () =>{
+const taskOne = (callback) => {
     console.log('Task 1');
+    callback();
 }
-const taskTwo = () =>{
+const taskTwo = (callback) => {
     setTimeout(() => {
         console.log('Task 2, Data Loading');
-    } , 3000);
+        callback();
+    }, 2000);
 }
-const taskThree = () =>{
+const taskThree = (callback) => {
     console.log('Task 3');
+    callback();
 }
-const taskFour = () =>{
+const taskFour = (callback) => {
     console.log('Task 4');
+    callback();
 }
-const taskFive = () =>{
+const taskFive = () => {
     console.log('Task 5');
 }
 
-taskOne();
-taskTwo();
-taskThree();
-taskFour();
-taskFive();
+taskOne(() => {
+    taskTwo(() => {
+        taskThree(() => {
+            taskFour(() => {
+                taskFive();
+            })
+        });
+    });
+});
+
+// Promise Part - 1 ..................
