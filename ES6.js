@@ -611,3 +611,25 @@ function square(x){
 }
 const y = square;
 y(5);
+
+function higherOrderFunction(num, callback){
+    callback(num)
+}
+
+higherOrderFunction(6, y)
+
+const taskOne = () =>{
+    console.log('Task 1');
+}
+const taskTwo = () =>{
+    console.log('Task 2');
+}
+const taskThree = () =>{
+    console.log('Task 3');
+}
+const taskFour = () =>{
+    console.log('Task 4');
+}
+const taskFive = () =>{
+    console.log('Task 5');
+}
