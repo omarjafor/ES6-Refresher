@@ -650,4 +650,4 @@ taskOne(() => {
     });
 });
 
-// Promise Part - 1 ..................
+// Promise Part - 1 ........ Pending, Resolve, Rejected
