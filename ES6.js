@@ -669,7 +669,10 @@ const getName = () => {
     console.log(name);
 }
 
-const person = JSON.stringify(people);
-console.log(person);
-const perParse = JSON.parse(person);
-console.log(perParse);
+// const person = JSON.stringify(people);
+// console.log(person);
+// const perParse = JSON.parse(person);
+// console.log(perParse);
+
+const hello = localStorage.getItem('hello');
+console.log(hello);
