@@ -651,3 +651,11 @@ taskOne(() => {
 });
 
 // Promise Part - 1 ........ Pending, Resolve, Rejected
+const sheIs = true;
+try{
+    if(sheIs){
+        console.log('Not he')
+    }
+}catch(err){
+    console.log(err);
+}
