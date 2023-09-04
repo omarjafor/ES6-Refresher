@@ -640,15 +640,15 @@ const taskFive = () => {
     console.log('Task 5');
 }
 
-taskOne(() => {
-    taskTwo(() => {
-        taskThree(() => {
-            taskFour(() => {
-                taskFive();
-            })
-        });
-    });
-});
+// taskOne(() => {
+//     taskTwo(() => {
+//         taskThree(() => {
+//             taskFour(() => {
+//                 taskFive();
+//             })
+//         });
+//     });
+// });
 
 // Promise Part - 1 ........ Pending, Resolve, Rejected
 const sheIs = true;
@@ -658,4 +658,8 @@ try{
     }
 }catch(err){
     console.log(err);
+}
+
+const seriousStudent = () =>{
+    confirm('Are you confirm to delete?');
 }
