@@ -663,3 +663,8 @@ try{
 const seriousStudent = () =>{
     confirm('Are you confirm to delete?');
 }
+
+const getName = () => {
+    const name = prompt('What is your name?')
+    console.log(name);
+}
