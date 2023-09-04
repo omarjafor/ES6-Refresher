@@ -668,3 +668,6 @@ const getName = () => {
     const name = prompt('What is your name?')
     console.log(name);
 }
+
+const person = JSON.stringify(people);
+console.log(person);
