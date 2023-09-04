@@ -674,5 +674,3 @@ console.log(person);
 const perParse = JSON.parse(person);
 console.log(perParse);
 
-const hello = localStorage.getItem('hello');
-console.log(hello);
