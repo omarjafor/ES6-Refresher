@@ -671,3 +671,5 @@ const getName = () => {
 
 const person = JSON.stringify(people);
 console.log(person);
+const perParse = JSON.parse(person);
+console.log(perParse);
