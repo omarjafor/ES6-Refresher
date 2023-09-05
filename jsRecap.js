@@ -30,5 +30,15 @@ console.log(student['age']);
 const about = `My Name is ${student.name} age of ${student.age} has number ${numbers[2]} also like some movies ${student.movies[1]}`;
 
 const getFiftyFive = () => 55;
-const addSistyFive = x => x+65;
-const isEven = x = x%2==0;
+const addSistyFive = x => x + 65;
+const isEven = x => x % 2 == 0;
+const addAll = (x, y, z) => x+y+z;
+const doMath = (x, y, z) => {
+    const add = x+y+z;
+    const sub = x-y-z;
+    return add+sub;
+}
+
+const newNum = [...numbers, 12];
+console.log(numbers);
+console.log(newNum);
