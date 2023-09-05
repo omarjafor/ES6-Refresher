@@ -63,8 +63,8 @@ product.forEach(element => {
 const lowPrice = product.filter(pro => pro.price < 25000);
 // console.log(lowPrice);
 
-const specificName = product.filter(pro => pro.name.includes('n'));
-// console.log(specificName);
+const specificName = product.filter(pro => pro.name.includes('z'));
+console.log(specificName);
 
 const specialName = product.find(pro => pro.name.includes('n'));
 // console.log(specialName);
@@ -108,9 +108,15 @@ console.log(newNumm);
 const name = 'Hero';
 const age = 34;
 const country = 'Bangladesh';
-const person = { name, age, country }; 
-console.log(person[name]);
+// const person = { name, age, country }; 
+// console.log(person[name]);
 
 const adventurer = { name: 'Alice', cat: { name: 'Lucy' } };
 const ratName = adventurer?.rat?.name;
 console.log(ratName);
+
+let person = null;
+console.log(person ? person : "person is null");
+
+const obj = { a: 1 };
+console.log(Object.keys(obj).length === 0);
