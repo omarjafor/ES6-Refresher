@@ -2,11 +2,11 @@ const fatherName = 'Jafor Ullah';
 let season = 'summer';
 season = 'winter';
 
-if(fatherName==='arnold' || season ==='winter'){
-    console.log('Something is true');
-}else{
-    console.log('Nothings is true');
-}
+// if(fatherName==='arnold' || season ==='winter'){
+//     console.log('Something is true');
+// }else{
+//     console.log('Nothings is true');
+// }
 
 const numbers = [89, 45, 85, 95, 15];
 numbers[1] = 65;
@@ -24,8 +24,8 @@ const student = {
     age: 32,
     movies: ['jokkor bokkor', 'priyotoma', 'dhakarpola']
 }
-console.log(student.movies[1]);
-console.log(student['age']);
+// console.log(student.movies[1]);
+// console.log(student['age']);
 
 const about = `My Name is ${student.name} age of ${student.age} has number ${numbers[2]} also like some movies ${student.movies[1]}`;
 
@@ -40,8 +40,8 @@ const doMath = (x, y, z) => {
 }
 
 const newNum = [...numbers, 12];
-console.log(numbers);
-console.log(newNum);
+// console.log(numbers);
+// console.log(newNum);
 
 const product = [
     {name: 'laptop', price: 35400, brand:'dell', color:'silver'},
@@ -53,11 +53,11 @@ const product = [
 ]
 
 const brands = product.map(pro => pro.brand);
-console.log(brands);
+// console.log(brands);
 
 product.forEach(element => {
-    console.log(element.name);
-    console.log(element.price);
+    // console.log(element.name);
+    // console.log(element.price);
 });
 
 const lowPrice = product.filter(pro => pro.price < 25000);
@@ -65,3 +65,6 @@ console.log(lowPrice);
 
 const specificName = product.filter(pro => pro.name.includes('n'));
 console.log(specificName);
+
+const specialName = product.find(pro => pro.name.includes('n'));
+console.log(specialName);
