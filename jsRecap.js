@@ -104,3 +104,8 @@ console.log(food);
 let numm = [];
 const newNumm = numm.forEach(n=>n*2);
 console.log(newNumm);
+
+const name = 'Hero';
+const age = 34;
+const person = { name, age }; 
+console.log(person);
