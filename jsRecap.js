@@ -93,3 +93,10 @@ for (let key in student){
 const newStudent = {name: 'Hero Alom', age: 32, movies:['chudur budur', 'houmaou', 'jaloporao']}
 const allStudent = [...product, newStudent];
 console.log(allStudent);
+
+// truthy = 'anystring', 5, true, {}, [] ===> checked(truthy)
+// falsy = '', 0, false, null, undefined ===> checked(!falsy)
+
+const money = 120;
+let food = money > 100 ? 'biriyani khabo' : 'cha nasta butter bon khabo';
+console.log(food);
