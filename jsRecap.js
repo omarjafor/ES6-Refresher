@@ -107,5 +107,10 @@ console.log(newNumm);
 
 const name = 'Hero';
 const age = 34;
-const person = { name, age }; 
-console.log(person);
+const country = 'Bangladesh';
+const person = { name, age, country }; 
+console.log(person[name]);
+
+const adventurer = { name: 'Alice', cat: { name: 'Lucy' } };
+const ratName = adventurer?.rat?.name;
+console.log(ratName);
