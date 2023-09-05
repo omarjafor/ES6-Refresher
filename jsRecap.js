@@ -75,5 +75,21 @@ const [aMovie, bMovie] = student.movies;
 
 const studentJson = JSON.stringify(student);
 const studentObj = JSON.parse(studentJson);
-console.log(studentJson);
-console.log(studentObj);
+// console.log(studentJson);
+// console.log(studentObj);
+
+// fetch(url)
+// .then(res => res.json())
+// .then(data => data);
+
+const keys = Object.keys(student);
+const values = Object.values(student);
+console.log(keys, values);
+
+for (let key in student){
+    console.log( key, student[key])
+}
+
+const newStudent = {name: 'Hero Alom', age: 32, movies:['chudur budur', 'houmaou', 'jaloporao']}
+const allStudent = [...product, newStudent];
+console.log(allStudent);
