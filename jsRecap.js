@@ -52,3 +52,13 @@ const product = [
     {name: 'shoes', price: 45600, brand:'realme', color:'white'}
 ]
 
+const brands = product.map(pro => pro.brand);
+console.log(brands);
+
+product.forEach(element => {
+    console.log(element.name);
+    console.log(element.price);
+});
+
+const lowPrice = product.filter(pro => pro.price < 25000);
+console.log(lowPrice);
