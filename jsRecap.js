@@ -62,3 +62,6 @@ product.forEach(element => {
 
 const lowPrice = product.filter(pro => pro.price < 25000);
 console.log(lowPrice);
+
+const specificName = product.filter(pro => pro.name.includes('n'));
+console.log(specificName);
