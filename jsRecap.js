@@ -42,3 +42,13 @@ const doMath = (x, y, z) => {
 const newNum = [...numbers, 12];
 console.log(numbers);
 console.log(newNum);
+
+const product = [
+    {name: 'laptop', price: 35400, brand:'dell', color:'silver'},
+    {name: 'phone', price: 20150, brand:'oppo', color:'yello'},
+    {name: 'watch', price: 15200, brand:'xiaomi', color:'blue'},
+    {name: 'sunglass', price: 25300, brand:'haier', color:'orange'},
+    {name: 'dslrcamera', price: 60100, brand:'redmi', color:'red'},
+    {name: 'shoes', price: 45600, brand:'realme', color:'white'}
+]
+
