@@ -68,3 +68,7 @@ console.log(specificName);
 
 const specialName = product.find(pro => pro.name.includes('n'));
 console.log(specialName);
+
+const [x, y] = numbers;
+const [aMovie, bMovie] = student.movies;
+console.log(x, y);
