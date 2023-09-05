@@ -100,3 +100,7 @@ console.log(allStudent);
 const money = 120;
 let food = money > 100 ? 'biriyani khabo' : 'cha nasta butter bon khabo';
 console.log(food);
+
+let numm = [];
+const newNumm = numm.forEach(n=>n*2);
+console.log(newNumm);
