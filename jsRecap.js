@@ -61,14 +61,19 @@ product.forEach(element => {
 });
 
 const lowPrice = product.filter(pro => pro.price < 25000);
-console.log(lowPrice);
+// console.log(lowPrice);
 
 const specificName = product.filter(pro => pro.name.includes('n'));
-console.log(specificName);
+// console.log(specificName);
 
 const specialName = product.find(pro => pro.name.includes('n'));
-console.log(specialName);
+// console.log(specialName);
 
 const [x, y] = numbers;
 const [aMovie, bMovie] = student.movies;
-console.log(x, y);
+// console.log(x, y);
+
+const studentJson = JSON.stringify(student);
+const studentObj = JSON.parse(studentJson);
+console.log(studentJson);
+console.log(studentObj);
