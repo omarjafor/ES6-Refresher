@@ -129,10 +129,20 @@ function sum(a, b) {
     return a + b;
 }
 
+console.log(sum(1, "2"));
 
+const food5 = ["🍕", "🍫", "🥑", "🍔"];
+const info = { favoriteFood: food[0] };
 
+info.favoriteFood = "🍝";
 
+console.log(food5);
 
+function sayHi(name) {
+    return `Hi there, ${name}`;
+}
+
+console.log(sayHi());
 
 
 
