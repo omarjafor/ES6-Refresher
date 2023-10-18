@@ -125,10 +125,6 @@ let greeting;
 greetign = {};
 console.log(greetign);
 
-function sum(a, b) {
-    return a + b;
-}
-
 
 
 
