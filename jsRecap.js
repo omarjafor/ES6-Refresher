@@ -138,11 +138,7 @@ info.favoriteFood = "🍝";
 
 console.log(food5);
 
-function sayHi(name) {
-    return `Hi there, ${name}`;
-}
 
-console.log(sayHi());
 
 
 
