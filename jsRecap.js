@@ -131,8 +131,6 @@ function sum(a, b) {
 
 console.log(sum(1, "2"));
 
-const food5 = ["🍕", "🍫", "🥑", "🍔"];
-const info = { favoriteFood: food[0] };
 
 
 
