@@ -134,9 +134,6 @@ console.log(sum(1, "2"));
 const food5 = ["🍕", "🍫", "🥑", "🍔"];
 const info = { favoriteFood: food[0] };
 
-info.favoriteFood = "🍝";
-
-console.log(food5);
 
 
 
