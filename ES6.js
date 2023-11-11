@@ -8,7 +8,7 @@ console.log(myName);
 function num(num){
     return num*2;
 }
-
+console.log(num(6));;
 
 const numMul = num => console.log(num*2);
 numMul(7);
