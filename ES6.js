@@ -25,15 +25,7 @@ import * as duble from "./sell.js";
 duble.hello();
 console.log(duble.data);
 
-import {text, setText} from './myModule.js';
-console.log(text);
-setText("Good Bye From ES6");
-console.log(text);
-setText("Welcome Back by Jaberjabed");
-import {message} from './myModule.js';
-console.log(message);
-import person1 from './myModule.js';
-console.log(person1);
+
 
 class Customer{
     constructor(n){
