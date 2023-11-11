@@ -3,4 +3,3 @@ const person = {
     age : 25
 }
 
-export default person;
