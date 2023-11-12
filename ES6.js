@@ -86,13 +86,6 @@ let perSon2 = {
     name : "jaberjabed",
     age : 25
 }
-let {name, age} = perSon2;
-console.log(name);
-console.log(age);
-
-let num1 = 100;
-let num2 = num1;
-console.log(num2);
 
 let ber = {
     name : "jaberjabed",
