@@ -166,6 +166,19 @@ const numbers = [2, 3, 4, 5, 6];
 const outputNum = numbers.map(n => n*3);
 console.log(outputNum); 
 
+const friends = ['Tom', 'Jane', 'Sine', 'Olive', 'Smith']
+const frndLength = friends.map(frnd => frnd.length)
+const frndLeter = friends.map(frnd => frnd[0])
+console.log(frndLength);
+console.log(frndLeter);
+// Spread operator
+const max = Math.max(5, 45, 48, 67, 10, 98, 14);
+const num3 = [50, 45, 408, 67, 10, 98, 14];
+const num4 = [1, 2, 3, 4, 5, 6, 7, 8];
+console.log(max);
+const arrayMax = Math.max(...num3);
+console.log(arrayMax);
+
 const num5 = [5, 6, 7, 8]
 // const num6 = num5
 // num5.push(9, 10);
