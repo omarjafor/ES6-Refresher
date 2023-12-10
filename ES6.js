@@ -678,7 +678,7 @@ const hello = localStorage.getItem('hello');
 console.log(hello);
 
 const setAge = () =>{
-//     window.localStorage.setItem('age', 30);
-// }
-// const num = (a,b) => (a+b)/4;
-// console.log(num(6,42));
+    window.localStorage.setItem('age', 30);
+}
+const num = (a,b) => (a+b)/4;
+console.log(num(6,42));
